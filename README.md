@@ -1,5 +1,4 @@
 # Comprehensive overview with a data flow diagram (DFD) and workflow description for document analysis chatbot:
----
 
 ### System Architecture Diagram
 ---
