@@ -1,0 +1,35 @@
+[project]
+name = "docchatbot"
+version = "0.1.0"
+description = "Document Analysis Chatbot"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Your Name", email = "your@email.com" }
+]
+
+dependencies = [
+    "fastapi>=0.111.0",
+    "uvicorn>=0.29.0",
+    "python-multipart>=0.0.9",
+    "PyPDF2>=3.0.1",
+    "pdf2image>=1.17.0",
+    "pytesseract>=0.3.10",
+    "openai>=1.30.1",
+    "chromadb>=0.5.0",
+    "python-dotenv>=1.0.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "black>=24.0.0",
+    "ruff>=0.3.0"
+]
+
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["backend"]  # Explicitly point to your package
