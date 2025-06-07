@@ -1,2 +1,9 @@
-/venv
-
+.DS_Store
+venv/
+__pycache__/
+*.pyc
+.env
+backend/data/*
+!backend/data/.gitkeep
+backend/chroma_db
+backend.egg-info
